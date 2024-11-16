@@ -7,7 +7,7 @@
 </head>
 <header>
     <h1>Guillermo Ernesto Köster</h1>
-    <h2>Practica Formativa 3</h3>
+    <h2>Práctica Formativa 3</h3>
     </header>
     <body>
         <main>
@@ -19,14 +19,14 @@
                     La idea de esto es comprender que algunas funciones retornan un valor y otras simplemente hacen otras cosas, como
                     imprimir un mensaje por consola. Las que retornan algo, deberán incluir la palabra clave return
                 </p>
-                <p>Ingrese los valors de la base y altura, luego presione "Calcular"</p>
+                <p>Ingrese los valores de la base y altura, luego presione "Calcular"</p>
                 <span>
                     <label for="base">Base</label>
-                    <input type="number" name="base" id="base" value="0">
+                    <input type="number" name="base" id="base" value="0" min="1" pattern="^[0-9]+">
                 </span>
                 <span>
                     <label for="altura">Altura</label>
-                    <input type="number" name="altura" id="altura" value="0">
+                    <input type="number" name="altura" id="altura" value="0" min="0" pattern="^[0-9]+">
                 </span>
                 <button type="button" id="1">Calcular</button>
                 <p class="resultado"></p>
