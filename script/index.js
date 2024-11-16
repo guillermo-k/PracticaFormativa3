@@ -129,7 +129,7 @@ function limpiarFrase(frase){
 function ejercicio5(){
     const parrafo = ej5.querySelector(".resultado");
     const edad = prompt("Ingrese la edad de su perro");
-    const texto = `La edad canina de su perro es ${edad*7} años`
+    const texto = `La edad canina de su perro es ${7*edad} años`
     parrafo.textContent = texto;
     console.log("Resultados del ejercicio 5:")
     console.log(texto)
