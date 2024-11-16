@@ -10,12 +10,15 @@ header{
 
 body{
     margin-inline: auto;
-    
+    background-color: aqua;
 }
 
 div{
     padding-inline: 20rem;
     padding-block: 3rem;
+    border: 2px solid black;
+    margin: 2rem;
+    background-color: cadetblue;
 }
 
 label, input, button{
@@ -24,3 +27,6 @@ label, input, button{
     margin-inline: .5rem;
 }
 
+span{
+    display: block;
+}
