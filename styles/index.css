@@ -21,4 +21,6 @@ div{
 label, input, button{
     font-size: 1.5rem;
     margin-top: 2rem;
+    margin-inline: .5rem;
 }
+
