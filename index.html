@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica Formativa 3</title>
+</head>
+<header>
+    <h1>Guillermo Ernesto Köster</h1>
+    <h2>Practica Formativa 3</h3>
+    </header>
+    <body>
+        <main>
+            <div class="ejercicio1">
+                <h3>1. Calcular el área de un rectángulo</h3>
+                <p>Escribe una función que reciba la longitud y el ancho de un rectángulo y devuelva su área.
+                    La funcion no debe devolver un console.log() sino retornar un valor, llamaremos a la funcion dentro de un
+                    console.log() .
+                    La idea de esto es comprender que algunas funciones retornan un valor y otras simplemente hacen otras cosas, como
+                    imprimir un mensaje por consola. Las que retornan algo, deberán incluir la palabra clave return
+                </p>
+                <form action="">
+                    <p>Ingrese los valors de la base y altura, luego presione "Calcular"</p>
+                    <label for="base">Base</label>
+                    <input type="number" name="base" id="base" value="0">
+                    <label for="altura">Altura</label>
+                    <input type="number" name="altura" id="altura" value="0">
+                    <button type="button" id="1">Calcular</button>
+                    <p class="resultado"></p>
+                </form>
+            </div>
+            <div class="ejercicio2">
+                <h3>2. Contar palabras en una cadena</h3>
+                <p>Escribe una función que reciba una cadena de texto (string) y devuelva la cantidad de palabras en la cadena.</p>
+                <form action="">
+                    <p>Ingrese la frase y luego presione "Contar"</p>
+                    <label for="frase">Frase</label>
+                    <input type="text" name="frase" id="frase">
+                    <button type="button" id="2">Contar</button>
+                    <p class="resultado"></p>
+                </form>
+            </div>
+            <div class="ejercicio3">
+                <h3>3. Invertir una cadena</h3>
+                <p>Escribe una función que tome una cadena como parámetro y devuelva la cadena invertida</p>
+                <form action="">
+                    <p>Ingrese la frase a invertir y presione "Invertir"</p>
+                    <label for="frase">Frase</label>
+                    <input type="text" name="frase" id="frase">
+                    <button type="button" id="3">Invertir</button>
+                    <p class="resultado"></p>
+                </form>
+            </div>
+            <div class="ejercicio4">
+                <h3>4. Encontrar el palíndromo</h3>
+                <p>Escribe una función que reciba un string y devuelva true o false si el string es un palíndromo.</p>
+                <form action="">
+                    <p>Ingrese la frase a verificar, y luego presione "Verificar"</p>
+                    <label for="frase">Frase</label>
+                    <input type="text" name="frase" id="frase">
+                    <button type="button" id="4">Verificar</button>
+                    <p class="resultado"></p>
+                    </form>
+        </div>
+        <div class="ejercicio5">
+            <h3>5. Crear un programa para convertir la edad de un perro a años humanos</h3>
+            <p>
+                Escribe una función que tome un valor de un usuario, utilizando una ventana emergente prompt y calcule la edad
+                canina, que equivale a 7 veces la edad humana.
+                Esta funcion no debe devolver un valor sino mostrar por consola un mensaje como el del ejemplo
+            </p>
+            <p class="resultado"></p>
+            <button type="button" id="5">Presione para iniciar</button>
+        </div>
+    </main>
+</body>
+<script defer src="./script/index.js"></script>
+</html>
