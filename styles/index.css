@@ -10,15 +10,20 @@ header{
 
 body{
     margin-inline: auto;
-    background-color: aqua;
+    background-color: rgb(162, 125, 101);
 }
-
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 div{
-    padding-inline: 20rem;
+    padding-inline: 2rem;
     padding-block: 3rem;
     border: 2px solid black;
     margin: 2rem;
-    background-color: cadetblue;
+    background-color: bisque;
+    width: 70%;
 }
 
 label, input, button{
