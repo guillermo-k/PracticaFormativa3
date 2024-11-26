@@ -155,10 +155,11 @@ function limpiarFrase(frase){
 function ejercicio5(){
     /* IDENTIFICACIÓN DE LOS ELEMENTOS DEL EJERCICIO */
     const parrafo = ej5.querySelector(".resultado");
+    let edad;
     do{
         // Se pide el ingreso de datos al usuario y se repite el proceso hasta que el dato ingresado sea correcto
-        const edad = prompt("Ingrese la edad de su perro, la misma debe ser un número positivo");
-    }while(edad != Numero(edad)&& edad<0)
+        edad = prompt("Ingrese la edad de su perro, la misma debe ser un número positivo");
+    }while(edad != Numero(edad) && edad < 0)
 
     
     
