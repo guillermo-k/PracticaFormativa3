@@ -101,7 +101,7 @@ function ejercicio4(){
     const frase = ej4.querySelector("#frase").value;
     const parrafo = ej4.querySelector(".resultado");
 
-    const texto = `La frase "${frase}"  ${resultado = esPalindromo(limpiarFrase(frase))? "es": "no es "} palindromo`;
+    const texto = `La frase "${frase}"  ${resultado = esPalindromo(limpiarFrase(frase.toLowerCase()))? "es": "no es "} palindromo`;
     parrafo.textContent = texto;
     console.log("Resultados del ejercicio 4:")
     console.log(texto)
