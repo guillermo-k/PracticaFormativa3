@@ -159,7 +159,8 @@ function ejercicio5(){
     do{
         // Se pide el ingreso de datos al usuario y se repite el proceso hasta que el dato ingresado sea correcto
         edad = prompt("Ingrese la edad de su perro, la misma debe ser un número positivo");
-    }while(edad != Number(edad) && edad < 0)
+        console.log(edad !== Number(edad))
+    }while(edad !== Number(edad) || edad < 0)
 
     
     
